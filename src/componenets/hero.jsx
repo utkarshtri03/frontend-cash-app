@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../componenets/navbar";
-import Footer from "../componenets/footer";
+import Navbar from "./navbar";
+import Footer from "./footer";
 
 const Hero = () => {
   return (

@@ -1,10 +1,10 @@
 import "./App.css";
-import Hero from "./pages/hero";
-import Payments from "./pages/payments";
-import Boost from "./pages/boost";
-import Investing from "./pages/investing";
-import Banking from "./pages/banking";
-import FooterNew from "./pages/newFooter";
+import Banking from "./componenets/banking";
+import Boost from "./componenets/boost";
+import Hero from "./componenets/hero";
+import Investing from "./componenets/investing";
+import FooterNew from "./componenets/newFooter";
+import Payments from "./componenets/payments";
 
 function App() {
   return (
