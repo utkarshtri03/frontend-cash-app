@@ -23,7 +23,7 @@ const Hero = () => {
       <img
         src="/assets/down.png"
         alt="Scroll down indicator"
-        className="w-7 sm:h-9 mob:w-5 h-7 absolute bottom-0 left-[50%] translate-x-[-50%] mb-6"
+        className="sm:w-7 sm:h-9 w-5 h-7 absolute bottom-0 left-[50%] translate-x-[-50%] mb-6"
       />
       <div>
         <img

@@ -4,6 +4,9 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Hero from "./pages/hero";
 import Payments from "./pages/payments";
+import Boost from "./pages/boost";
+import Investing from "./pages/investing";
+import Banking from "./pages/banking";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,10 +16,9 @@ function App() {
       <div className="snap-y snap-mandatory h-[100vh] overflow-y-scroll m-0 smlap:hidden">
         <Hero />
         <Payments />
-        {/* <Payments/>
-        <Banking/>
-        <Boost/>
-        <Investing/> */}
+        <Banking />
+        <Boost />
+        <Investing />
       </div>
     </>
   );
