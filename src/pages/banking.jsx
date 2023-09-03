@@ -30,6 +30,11 @@ const Banking = () => {
         className="absolute top-[5%] sm:top-[14%] left-[5%] z-10 sm:h-[30%] sm:w-[8%] w-[9%]"
       />
       <img
+        src="/assets/banking-track-1.png"
+        alt="Banking Track 2"
+        className="absolute top-[23%] right-[47%] w-[15%] hidden md:block"
+      />
+      <img
         src="/assets/banking-stairs-2.png"
         alt="Banking Stairs 2"
         className="absolute h-[20%] bottom-[13%] left-[4%] z-10 sm:w-[6%] sm:h-[30%]"

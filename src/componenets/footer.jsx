@@ -4,7 +4,7 @@ const Footer = ({ themeColor }) => {
   const antiThemeColor = themeColor === "black" ? "white" : "black";
 
   return (
-    <footer className="absolute w-[100dvw] bottom-0 flex flex-row justify-between p-6 px-14 mdlap:px-10 smlap:hidden">
+    <footer className="absolute w-[100dvw] bottom-0 flex flex-row justify-between p-6 px-14 gap-8">
       <div className="flex flex-row items-center gap-5">
         <button
           className={`p-5 py-3 flex items-center justify-center gap-3 border-[1px] border-${antiThemeColor}-800 rounded-md bg-${themeColor}`}
@@ -36,7 +36,7 @@ const Footer = ({ themeColor }) => {
           banking services through Sutton Bank and Lincoln Savings Bank, Members
           FDIC.
         </p>
-        <div className="flex flex-row items-center gap-8">
+        <div className="flex flex-row items-center md:gap-4 lg:gap-8">
           <button>
             <img
               src={`/assets/twitch-${antiThemeColor}.png`}

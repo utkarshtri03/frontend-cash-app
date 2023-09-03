@@ -47,7 +47,9 @@ const Hero = () => {
           className="absolute md:right-[18%] md:bottom-[-11%] md:w-72 sm:right-[-7%] sm:bottom-[-5%] sm:w-72 right-[1%] bottom-[7%] w-40"
         />
       </div>
-      <Footer themeColor={"black"} />
+      <div className="hidden lg:block">
+        <Footer themeColor={"black"} />
+      </div>
     </section>
   );
 };

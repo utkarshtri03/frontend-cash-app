@@ -43,7 +43,7 @@ const Navbar = () => {
       </motion.div>
       <div className="flex w-[100dvw] justify-between items-center p-4 pl-6 pr-8 overflow-hidden mob:px-4 relative z-40">
         <img src="/assets/logo.svg" alt="CashApp Logo" className="w-6" />
-        <div className="md:visible hidden md:flex items-center justify-center gap-6 text-white font-Agrandir text-[12px]">
+        <div className="hidden md:flex items-center justify-center md:gap-2 lg:gap-6 text-white font-Agrandir text-[12px]">
           <button>SIGN IN</button>
           <button>LEGAL</button>
           <button>LICENSES</button>
@@ -54,10 +54,7 @@ const Navbar = () => {
           <button>STATUS</button>
           <button>CODEBLOG</button>
         </div>
-        <div className="sm:hidden w-full flex justify-end items-center gap-6 pr-6 mob:pr-4 mob:gap-4">
-          <button className="text-white font-Agrandir text-[12px]">
-            Navbar
-          </button>
+        <div className="md:hidden w-full flex justify-end items-center gap-6 pr-6 ">
           <button onClick={handleMenu}>
             <GiHamburgerMenu className="text-white w-7 h-7" />
           </button>

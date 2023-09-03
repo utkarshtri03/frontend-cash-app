@@ -63,7 +63,9 @@ const Investing = () => {
         alt="Investing Graph 2"
         className="absolute right-0 bottom-[35%] sm:bottom-[25%] w-[25%]  "
       />
-      <Footer themeColor={"white"} />
+      <div className="hidden lg:block">
+        <Footer themeColor={"white"} />
+      </div>
     </section>
   );
 };
